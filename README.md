@@ -24,6 +24,7 @@ gcr.io/google_containers/pause-amd64	v3.1
 
 
 用下面的命令来生成需要的docker image
+
 docker pull t1zhou/kube-controller-manager-amd64
 docker pull t1zhou/kube-scheduler-amd64
 docker pull t1zhou/kubedns-amd64
@@ -34,6 +35,7 @@ docker pull t1zhou/exechealthz-amd64
 docker pull t1zhou/etcd-amd64
 docker pull t1zhou/kube-apiserver-amd64
 docker pull t1zhou/kubedns-amd64
+
 
 docker tag t1zhou/etcd-amd64:latest gcr.io/google_containers/etcd-amd64:v3.1.11
 docker tag t1zhou/kube-controller-manager-amd64 gcr.io/google_containers/kube-controller-manager-amd64:v1.9.3
